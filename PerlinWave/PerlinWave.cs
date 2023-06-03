@@ -32,6 +32,7 @@ namespace AAA
                     }
                     Raylib.DrawLineStrip(vec, noiseSize, Color.WHITE);
                 }
+                Raylib.DrawFPS(0, 0);
                 Raylib.EndDrawing();
             }
             Raylib.CloseWindow();
